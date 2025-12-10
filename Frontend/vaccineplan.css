@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #bbe1de;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-family: "Open Sans", sans-serif;
+}
+h1, h2 {
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.note, .special-considerations {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.feature1 {
+
+    background-color: rgb(185, 208, 206);
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+   
+   
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin :1rem;
+    width: 90%;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.head1{
+    height: 300px;
+    align-items: center;
+    padding: 50px 150px;
+   
+}
