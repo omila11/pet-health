@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>PetvaxHub Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+        
+    
+</head>
+<body>
+    <header>
+        <div>
+        <div class="six">
+        <img src="../assets/images/logoimage.jpg" class="five" >
+        <h1 class="homeh1">PetvaxHub</h1>
+    </div>
+
+    <div class="sub-title">
+        <h4 class="four">smart pet card</h4>
+    </div>
+       
+        <nav>
+            <ul class="three">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="vaccineplan.html">vaccination schedules</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about-us">About us</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+   
+ 
+    <div class="container">
+        <div class="seven">
+            <nav class="eight">
+              
+                <a href="#" class="dash">Records</a>
+                <a href="#" class="dash">Add New</a>
+                <a href="#" class="dash">Profile</a>
+                <a href="#" class="dash">Logout</a>
+            </nav>
+        </div>
+        <h2>Vaccination Records</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pet Name</th>
+                    <th>Species</th>
+                    <th>Breed</th>
+                    <th>Age</th>
+                    <th>Vaccine</th>
+                    <th>Date Administered</th>
+                    <th>Next Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Buddy</td>
+                    <td>Dog</td>
+                    <td>Labrador</td>
+                    <td>3</td>
+                    <td>Rabies</td>
+                    <td>2024-01-15</td>
+                    <td>2025-01-15</td>
+                </tr>
+              
+            </tbody>
+        </table>
+
+        <h2>Add New Record</h2>
+        <form>
+            <label for="petName">Pet Name</label>
+            <input type="text" id="petName" name="petName">
+
+            <label for="species">Species</label>
+            <select id="species" name="species">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="breed">Breed</label>
+            <input type="text" id="breed" name="breed">
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+
+            <label for="vaccine">Vaccine</label>
+            <input type="text" id="vaccine" name="vaccine">
+
+            <label for="dateAdministered">Date Administered</label>
+            <input type="date" id="dateAdministered" name="dateAdministered">
+
+            <label for="nextDueDate">Next Due Date</label>
+            <input type="date" id="nextDueDate" name="nextDueDate">
+
+            <button type="submit">Add Record</button>
+        </form>
+    </div>
+</body>
+</html>
